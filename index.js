@@ -9,6 +9,6 @@ function johnLennonFacts(facts) {
   var i = 0
   var lennonFacts = []
   while (facts.length > i) {
-     lennonFacts = facts[i] + "!!!"; i++
+     lennonFacts = (facts[i] + "!!!"; i++)
   } return lennonFacts
 }
