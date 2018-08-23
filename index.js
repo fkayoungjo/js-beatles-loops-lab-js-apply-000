@@ -12,3 +12,9 @@ function johnLennonFacts(facts) {
      lennonFacts[i] = facts[i] + "!!!"; i++
   } return lennonFacts
 }
+
+function iLoveTheBeatles(number) {
+  var i = []
+  do { 
+  console.log('I love the Beatles!'); i++}
+} while (i < 7);
